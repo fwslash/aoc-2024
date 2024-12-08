@@ -15,11 +15,8 @@ func isSafeDecreasing(nums []int, popped bool) int {
 				i--
 				continue
 			}
-
 			return 0
-
 		}
-
 	}
 	return 1
 }
